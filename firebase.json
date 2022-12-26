@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "kdupress",
+    "public": "kdupress",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

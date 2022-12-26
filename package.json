@@ -11,6 +11,7 @@
     "build": "yarn tsc && yarn build:docs",
     "build:docs": "yarn workspace docs build",
     "clean": "lerna clean && rm -rf node_modules",
+    "deploy:docs": "yarn build && firebase deploy",
     "dev": "yarn tsc && yarn dev:docs",
     "dev:docs": "yarn workspace docs dev",
     "lint": "eslint packages --ext .js,.ts,.kdu",
