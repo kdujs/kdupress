@@ -2,5 +2,5 @@
 !.eslintrc.js
 !.commitlintrc.js
 !.kdupress
-packages/@kdupress/shared-utils/lib
-packages/@kdupress/shared-utils/types
+packages/@kdupress
+packages/docs
