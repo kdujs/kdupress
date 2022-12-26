@@ -113,22 +113,6 @@ const release = async () => {
   console.log(`lerna ${releaseArguments.join(' ')}`)
 
   await execa(require.resolve('lerna/cli'), releaseArguments, { stdio: 'inherit' })
-
-  await execa('yarn', ['changelog'])
-
-  // cleanup changelog
-  fs.writeFileSync(
-    'CHANGELOG.md',
-    fs.readFileSync('CHANGELOG.md')
-      .toString()
-      .split('\n')
-      .slice(4)
-      .join('\n')
-  )
-
-  await execa('git', ['add', '-A'], { stdio: 'inherit' })
-  await execa('git', ['commit', '-m', `chore: version ${version} changelog`], { stdio: 'inherit' })
-  await execa('git', ['push', 'origin', 'master'], { stdio: 'inherit' })
 }
 
 release().catch(err => {
