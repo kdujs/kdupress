@@ -1,0 +1,26 @@
+{
+  "name": "@kdupress/plugin-google-analytics",
+  "version": "1.8.0",
+  "description": "google-analytics plugin for kdupress",
+  "keywords": [
+    "documentation",
+    "generator",
+    "kdu",
+    "kdupress"
+  ],
+  "homepage": "https://github.com/kdujs/kdupress/blob/main/packages/@kdupress/plugin-google-analytics#readme",
+  "bugs": {
+    "url": "https://github.com/kdujs/kdupress/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdujs/kdupress.git",
+    "directory": "packages/@kdupress/plugin-google-analytics"
+  },
+  "license": "MIT",
+  "author": "NKDuy",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  }
+}

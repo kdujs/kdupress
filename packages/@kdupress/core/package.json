@@ -1,0 +1,71 @@
+{
+  "name": "@kdupress/core",
+  "version": "1.8.0",
+  "description": "Minimalistic doc generator with Kdu component based layout system",
+  "keywords": [
+    "documentation",
+    "generator",
+    "kdu"
+  ],
+  "homepage": "https://github.com/kdujs/kdupress#readme",
+  "bugs": {
+    "url": "https://github.com/kdujs/kdupress/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdujs/kdupress.git",
+    "directory": "packages/@kdupress/core"
+  },
+  "license": "MIT",
+  "author": "NKDuy",
+  "main": "lib/index.js",
+  "browserslist": [
+    ">1%"
+  ],
+  "dependencies": {
+    "@babel/core": "^7.8.4",
+    "@kdujs/babel-preset-app": "^4.0.5",
+    "@kdupress/markdown": "1.8.0",
+    "@kdupress/markdown-loader": "1.8.0",
+    "@kdupress/plugin-last-updated": "1.8.0",
+    "@kdupress/plugin-register-components": "1.8.0",
+    "@kdupress/shared-utils": "1.8.0",
+    "autoprefixer": "^9.5.1",
+    "babel-loader": "^8.0.4",
+    "cache-loader": "^3.0.0",
+    "chokidar": "^2.0.3",
+    "connect-history-api-fallback": "^1.5.0",
+    "copy-webpack-plugin": "^5.0.2",
+    "core-js": "^3.6.4",
+    "cross-spawn": "^6.0.5",
+    "css-loader": "^2.1.1",
+    "file-loader": "^3.0.1",
+    "js-yaml": "^3.13.1",
+    "kdu": "^2.6.14",
+    "kdu-loader": "^15.9.8",
+    "kdu-router": "^3.5.4",
+    "kdu-server-renderer": "^2.6.14",
+    "kdu-template-compiler": "^2.6.14",
+    "kdupress-html-webpack-plugin": "^3.2.0",
+    "kdupress-plugin-container": "^2.0.2",
+    "lru-cache": "^5.1.1",
+    "mini-css-extract-plugin": "0.6.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "portfinder": "^1.0.13",
+    "postcss-loader": "^3.0.0",
+    "postcss-safe-parser": "^4.0.1",
+    "toml": "^3.0.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.8.1",
+    "webpack-chain": "^6.0.0",
+    "webpack-dev-server": "^3.5.1",
+    "webpack-merge": "^4.1.2",
+    "webpackbar": "3.2.0"
+  },
+  "engines": {
+    "node": ">=8.6"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

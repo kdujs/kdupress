@@ -1,0 +1,31 @@
+{
+  "name": "@kdupress/markdown-loader",
+  "version": "1.8.0",
+  "description": "markdown-loader for kdupress",
+  "keywords": [
+    "documentation",
+    "generator",
+    "kdu",
+    "kdupress"
+  ],
+  "homepage": "https://github.com/kdujs/kdupress/blob/main/packages/@kdupress/markdown-loader#readme",
+  "bugs": {
+    "url": "https://github.com/kdujs/kdupress/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdujs/kdupress.git",
+    "directory": "packages/@kdupress/markdown-loader"
+  },
+  "license": "MIT",
+  "author": "NKDuy",
+  "main": "index.js",
+  "dependencies": {
+    "@kdupress/markdown": "1.8.0",
+    "loader-utils": "^1.1.0",
+    "lru-cache": "^5.1.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

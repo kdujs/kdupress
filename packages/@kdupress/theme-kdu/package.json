@@ -1,0 +1,29 @@
+{
+  "name": "@kdupress/theme-kdu",
+  "version": "1.8.0",
+  "description": "KduPress theme for official Kdu projects",
+  "keywords": [
+    "documentation",
+    "generator",
+    "kdu",
+    "kdupress"
+  ],
+  "homepage": "https://github.com/kdujs/kdupress/blob/main/packages/@kdupress/theme-kdu#readme",
+  "bugs": {
+    "url": "https://github.com/kdujs/kdupress/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdujs/kdupress.git",
+    "directory": "packages/@kdupress/theme-kdu"
+  },
+  "license": "MIT",
+  "author": "NKDuy",
+  "main": "index.js",
+  "dependencies": {
+    "@kdupress/theme-default": "1.8.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

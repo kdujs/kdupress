@@ -1,0 +1,34 @@
+<template>
+  <component :is="layout" />
+</template>
+
+<script>
+import Kdu from 'kdu'
+import { setGlobalInfo } from '@app/util'
+
+export default {
+  name: 'GlobalLayout',
+
+  computed: {
+    layout () {
+      const layout = this.getLayout()
+      setGlobalInfo('layout', layout)
+      return Kdu.component(layout)
+    }
+  },
+
+  methods: {
+    getLayout () {
+      if (this.$page.path) {
+        const layout = this.$page.frontmatter.layout
+        if (layout && (this.$kdupress.getLayoutAsyncComponent(layout)
+          || this.$kdupress.getKduComponent(layout))) {
+          return layout
+        }
+        return 'Layout'
+      }
+      return 'NotFound'
+    }
+  }
+}
+</script>

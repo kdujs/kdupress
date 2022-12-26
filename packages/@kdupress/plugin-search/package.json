@@ -1,0 +1,26 @@
+{
+  "name": "@kdupress/plugin-search",
+  "version": "1.8.0",
+  "description": "search plugin for kdupress",
+  "keywords": [
+    "documentation",
+    "generator",
+    "kdu",
+    "kdupress"
+  ],
+  "homepage": "https://github.com/kdujs/kdupress/blob/main/packages/@kdupress/plugin-search#readme",
+  "bugs": {
+    "url": "https://github.com/kdujs/kdupress/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdujs/kdupress.git",
+    "directory": "packages/@kdupress/plugin-search"
+  },
+  "license": "MIT",
+  "author": "NKDuy",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  }
+}

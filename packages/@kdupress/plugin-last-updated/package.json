@@ -1,0 +1,29 @@
+{
+  "name": "@kdupress/plugin-last-updated",
+  "version": "1.8.0",
+  "description": "last-updated plugin for kdupress",
+  "keywords": [
+    "documentation",
+    "generator",
+    "kdu",
+    "kdupress"
+  ],
+  "homepage": "https://github.com/kdujs/kdupress/blob/main/packages/@kdupress/plugin-last-updated#readme",
+  "bugs": {
+    "url": "https://github.com/kdujs/kdupress/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdujs/kdupress.git",
+    "directory": "packages/@kdupress/plugin-last-updated"
+  },
+  "license": "MIT",
+  "author": "NKDuy",
+  "main": "index.js",
+  "dependencies": {
+    "cross-spawn": "^6.0.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "@kdupress/plugin-register-components",
+  "version": "1.8.0",
+  "description": "register-global-components plugin for kdupress",
+  "keywords": [
+    "documentation",
+    "generator",
+    "kdu",
+    "kdupress"
+  ],
+  "homepage": "https://github.com/kdujs/kdupress/blob/main/packages/@kdupress/plugin-register-components#readme",
+  "bugs": {
+    "url": "https://github.com/kdujs/kdupress/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdujs/kdupress.git",
+    "directory": "packages/@kdupress/plugin-register-components"
+  },
+  "license": "MIT",
+  "author": "NKDuy",
+  "main": "index.js",
+  "dependencies": {
+    "@kdupress/shared-utils": "1.8.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

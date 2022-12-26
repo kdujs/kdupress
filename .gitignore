@@ -1,0 +1,25 @@
+# node modules
+node_modules
+
+# MacOS desktop services store
+.DS_Store
+
+# Log files
+*.log
+
+# Meta files
+TODOs.md
+
+# Editors
+.vscode
+.idea
+
+# KduPress temp directory
+.temp
+
+# Docs dist directory
+/kdupress
+
+# Typescript build dist
+packages/@kdupress/shared-utils/lib/
+packages/@kdupress/shared-utils/types/

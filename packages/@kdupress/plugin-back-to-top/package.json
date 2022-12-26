@@ -1,0 +1,29 @@
+{
+  "name": "@kdupress/plugin-back-to-top",
+  "version": "1.8.0",
+  "description": "back-to-top plugin for kdupress",
+  "keywords": [
+    "documentation",
+    "generator",
+    "kdu",
+    "kdupress"
+  ],
+  "homepage": "https://github.com/kdujs/kdupress/tree/main/packages/%40kdupress/plugin-back-to-top#readme",
+  "bugs": {
+    "url": "https://github.com/kdujs/kdupress/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdujs/kdupress.git",
+    "directory": "packages/@kdupress/plugin-back-to-top"
+  },
+  "license": "MIT",
+  "author": "NKDuy",
+  "main": "index.js",
+  "dependencies": {
+    "lodash.debounce": "^4.0.8"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "@kdupress/plugin-medium-zoom",
+  "version": "1.8.0",
+  "description": "medium-zoom plugin for kdupress",
+  "keywords": [
+    "documentation",
+    "generator",
+    "kdu",
+    "kdupress"
+  ],
+  "homepage": "https://github.com/kdujs/kdupress/blob/main/packages/@kdupress/plugin-medium-zoom#readme",
+  "bugs": {
+    "url": "https://github.com/kdujs/kdupress/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdujs/kdupress.git",
+    "directory": "packages/@kdupress/plugin-medium-zoom"
+  },
+  "license": "MIT",
+  "author": "NKDuy",
+  "main": "index.js",
+  "dependencies": {
+    "medium-zoom": "^1.0.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

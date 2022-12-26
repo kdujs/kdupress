@@ -1,0 +1,29 @@
+{
+  "name": "@kdupress/plugin-nprogress",
+  "version": "1.8.0",
+  "description": "nprogress plugin for kdupress",
+  "keywords": [
+    "documentation",
+    "generator",
+    "kdu",
+    "kdupress"
+  ],
+  "homepage": "https://github.com/kdujs/kdupress/blob/main/packages/@kdupress/plugin-nprogress#readme",
+  "bugs": {
+    "url": "https://github.com/kdujs/kdupress/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdujs/kdupress.git",
+    "directory": "packages/@kdupress/plugin-nprogress"
+  },
+  "license": "MIT",
+  "author": "NKDuy",
+  "main": "index.js",
+  "dependencies": {
+    "nprogress": "^0.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

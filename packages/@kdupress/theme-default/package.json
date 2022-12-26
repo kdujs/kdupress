@@ -1,0 +1,37 @@
+{
+  "name": "@kdupress/theme-default",
+  "version": "1.8.0",
+  "description": "Default theme for KduPress",
+  "keywords": [
+    "documentation",
+    "generator",
+    "kdu",
+    "kdupress"
+  ],
+  "homepage": "https://github.com/kdujs/kdupress/blob/main/packages/@kdupress/theme-default#readme",
+  "bugs": {
+    "url": "https://github.com/kdujs/kdupress/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdujs/kdupress.git",
+    "directory": "packages/@kdupress/theme-default"
+  },
+  "license": "MIT",
+  "author": "NKDuy",
+  "main": "index.js",
+  "dependencies": {
+    "@kdupress/plugin-active-header-links": "1.8.0",
+    "@kdupress/plugin-nprogress": "1.8.0",
+    "@kdupress/plugin-search": "1.8.0",
+    "docsearch.js": "^2.5.2",
+    "kdupress-plugin-container": "^2.0.2",
+    "kdupress-plugin-smooth-scroll": "^0.0.3",
+    "lodash": "^4.17.15",
+    "stylus": "^0.54.8",
+    "stylus-loader": "^3.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

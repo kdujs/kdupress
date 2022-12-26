@@ -1,0 +1,38 @@
+{
+  "name": "kdupress",
+  "version": "1.8.0",
+  "description": "Minimalistic doc generator with Kdu component based layout system",
+  "keywords": [
+    "documentation",
+    "generator",
+    "kdu"
+  ],
+  "homepage": "https://github.com/kdujs/kdupress#readme",
+  "bugs": {
+    "url": "https://github.com/kdujs/kdupress/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdujs/kdupress.git",
+    "directory": "packages/kdupress"
+  },
+  "license": "MIT",
+  "author": "NKDuy",
+  "main": "index.js",
+  "bin": {
+    "kdupress": "cli.js"
+  },
+  "browserslist": [
+    ">1%"
+  ],
+  "dependencies": {
+    "@kdupress/core": "1.8.0",
+    "@kdupress/theme-default": "1.8.0",
+    "cac": "^6.5.6",
+    "envinfo": "^7.2.0",
+    "update-notifier": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=8.6"
+  }
+}
