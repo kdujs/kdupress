@@ -1,6 +1,6 @@
 {
   "name": "kdupress",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "description": "Minimalistic doc generator with Kdu component based layout system",
   "keywords": [
     "documentation",
@@ -26,8 +26,8 @@
     ">1%"
   ],
   "dependencies": {
-    "@kdupress/core": "1.8.0",
-    "@kdupress/theme-default": "1.8.0",
+    "@kdupress/core": "1.8.1",
+    "@kdupress/theme-default": "1.8.1",
     "cac": "^6.5.6",
     "envinfo": "^7.2.0",
     "update-notifier": "^4.0.0"

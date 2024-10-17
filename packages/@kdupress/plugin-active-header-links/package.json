@@ -1,6 +1,6 @@
 {
   "name": "@kdupress/plugin-active-header-links",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "description": "active-header-links plugin for kdupress",
   "keywords": [
     "documentation",

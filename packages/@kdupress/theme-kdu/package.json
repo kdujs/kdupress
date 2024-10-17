@@ -1,6 +1,6 @@
 {
   "name": "@kdupress/theme-kdu",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "description": "KduPress theme for official Kdu projects",
   "keywords": [
     "documentation",
@@ -21,7 +21,7 @@
   "author": "NKDuy",
   "main": "index.js",
   "dependencies": {
-    "@kdupress/theme-default": "1.8.0"
+    "@kdupress/theme-default": "1.8.1"
   },
   "publishConfig": {
     "access": "public"

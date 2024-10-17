@@ -1,6 +1,6 @@
 {
   "name": "@kdupress/plugin-search",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "description": "search plugin for kdupress",
   "keywords": [
     "documentation",

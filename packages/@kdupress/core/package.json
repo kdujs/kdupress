@@ -1,6 +1,6 @@
 {
   "name": "@kdupress/core",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "description": "Minimalistic doc generator with Kdu component based layout system",
   "keywords": [
     "documentation",
@@ -25,11 +25,11 @@
   "dependencies": {
     "@babel/core": "^7.8.4",
     "@kdujs/babel-preset-app": "^4.0.5",
-    "@kdupress/markdown": "1.8.0",
-    "@kdupress/markdown-loader": "1.8.0",
-    "@kdupress/plugin-last-updated": "1.8.0",
-    "@kdupress/plugin-register-components": "1.8.0",
-    "@kdupress/shared-utils": "1.8.0",
+    "@kdupress/markdown": "1.8.1",
+    "@kdupress/markdown-loader": "1.8.1",
+    "@kdupress/plugin-last-updated": "1.8.1",
+    "@kdupress/plugin-register-components": "1.8.1",
+    "@kdupress/shared-utils": "1.8.1",
     "autoprefixer": "^9.5.1",
     "babel-loader": "^8.0.4",
     "cache-loader": "^3.0.0",

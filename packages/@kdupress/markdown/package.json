@@ -1,13 +1,13 @@
 {
   "name": "@kdupress/markdown",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "description": "markdown for kdupress",
   "keywords": [
     "documentation",
     "generator",
-    "markdown",
     "kdu",
-    "kdupress"
+    "kdupress",
+    "markdown"
   ],
   "homepage": "https://github.com/kdujs/kdupress/blob/main/packages/@kdupress/markdown#readme",
   "bugs": {
@@ -22,7 +22,7 @@
   "author": "NKDuy",
   "main": "index.js",
   "dependencies": {
-    "@kdupress/shared-utils": "1.8.0",
+    "@kdupress/shared-utils": "1.8.1",
     "markdown-it": "^8.4.1",
     "markdown-it-anchor": "^5.0.2",
     "markdown-it-chain": "^1.3.0",
