@@ -27,7 +27,10 @@ module.exports = ctx => ({
     docsDir: 'packages/docs/docs',
     algolia: ctx.isProd ? ({
       apiKey: 'ebbe61ed6083187308b1105bbdb08728',
-      indexName: 'kdupress'
+      indexName: 'kdupress',
+      algoliaOptions: {
+        facetFilters: ['tags:v1']
+      }
     }) : null,
     smoothScroll: true,
     locales: {
