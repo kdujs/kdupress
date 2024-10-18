@@ -5,11 +5,11 @@
 - [Node.js 10+](https://nodejs.org/en/)
 - [Yarn Classic](https://classic.yarnpkg.com/en/) (Optional)\*
 
-\* _If your project is using webpack 3.x, you may notice some installation issues with npm. In this case, we recommend using Yarn._
+\* _If your project is using webpack 3.x, you may notice some installation issues with `npm`. In this case, we recommend using Yarn._
 
 ## Quick Start
 
-The fastest way to get your KduPress project setup is to use our [create-kdupress-site generator](https://github.com/kdupressjs/create-kdupress-site/) which will help scaffold the basic KduPress site structure for you.
+The fastest way to get your KduPress project set up is to use our [create-kdupress-site generator](https://github.com/kdupressjs/create-kdupress-site/), which will help scaffold the basic KduPress site structure for you.
 
 To use it, open up your terminal in the desired directory and run the following command:
 
@@ -27,7 +27,7 @@ npx create-kdupress-site [optionalDirectoryName]
 </code-block>
 </code-group>
 
-You will then have the opportunity to configure your KduPress site’s metadata such as:
+The command will interactively ask for details to configure your KduPress site’s metadata such as:
 
 - Project Name
 - Description
@@ -35,11 +35,33 @@ You will then have the opportunity to configure your KduPress site’s metadata 
 - Maintainer Name
 - Repository URL
 
-Once it is complete, you should see your new KduPress site scaffolded in your directory! :tada:
+Once this done, a scaffolded documentation site will be created in the `docs` directory (or custom directory name, if passed) under the current directory.
+
+To see it in action, navigate into newly scaffolded directory, install the dependencies and start the local server:
+
+<code-group>
+<code-block title="YARN" active>
+```bash
+cd docs
+yarn install
+yarn dev
+```
+</code-block>
+
+<code-block title="NPM">
+```bash
+cd docs
+npm install
+npm run dev
+```
+</code-block>
+</code-group>
 
 ## Manual Installation
 
-This section will help you build a basic KduPress documentation site from ground up. If you already have an existing project and would like to keep documentation inside the project, start from Step 3.
+If you prefer, you can build a basic KduPress documentation site from ground up instead of using the generator mentioned above.
+
+Note: If you already have an existing project and would like to keep documentation inside the project, start from Step 3.
 
 1. Create and change into a new directory
 
@@ -85,9 +107,9 @@ This section will help you build a basic KduPress documentation site from ground
    mkdir docs && echo '# Hello KduPress' > docs/README.md
    ```
 
-5. Add some [scripts](https://classic.yarnpkg.com/en/docs/package-json#toc-scripts) to `package.json`
+5. Add helper [scripts](https://classic.yarnpkg.com/en/docs/package-json#toc-scripts) to `package.json`
 
-   This step is optional but highly recommended, the rest of the documentation will assume those scripts being added.
+   This step is optional but highly recommended, as the rest of the documentation will assume those scripts being present.
 
    ```json
    {
