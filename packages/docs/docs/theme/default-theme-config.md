@@ -532,7 +532,7 @@ pageClass: custom-page-class
 ---
 ```
 
-Then you can write CSS targeting that page only in `./kdupress/styles/index.styl`.
+Then you can write CSS targeting that page only in `.kdupress/styles/index.styl`.
 
 ``` css
 
