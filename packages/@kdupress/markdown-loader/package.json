@@ -1,6 +1,6 @@
 {
   "name": "@kdupress/markdown-loader",
-  "version": "1.8.1",
+  "version": "1.8.2",
   "description": "markdown-loader for kdupress",
   "keywords": [
     "documentation",
@@ -21,7 +21,7 @@
   "author": "NKDuy",
   "main": "index.js",
   "dependencies": {
-    "@kdupress/markdown": "1.8.1",
+    "@kdupress/markdown": "1.8.2",
     "loader-utils": "^1.1.0",
     "lru-cache": "^5.1.1"
   },

@@ -1,6 +1,6 @@
 {
   "name": "@kdupress/theme-default",
-  "version": "1.8.1",
+  "version": "1.8.2",
   "description": "Default theme for KduPress",
   "keywords": [
     "documentation",
@@ -21,9 +21,9 @@
   "author": "NKDuy",
   "main": "index.js",
   "dependencies": {
-    "@kdupress/plugin-active-header-links": "1.8.1",
-    "@kdupress/plugin-nprogress": "1.8.1",
-    "@kdupress/plugin-search": "1.8.1",
+    "@kdupress/plugin-active-header-links": "1.8.2",
+    "@kdupress/plugin-nprogress": "1.8.2",
+    "@kdupress/plugin-search": "1.8.2",
     "docsearch.js": "^2.5.2",
     "kdupress-plugin-container": "^2.0.2",
     "kdupress-plugin-smooth-scroll": "^0.0.3",

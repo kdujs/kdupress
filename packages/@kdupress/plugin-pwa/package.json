@@ -1,6 +1,6 @@
 {
   "name": "@kdupress/plugin-pwa",
-  "version": "1.8.1",
+  "version": "1.8.2",
   "description": "pwa plugin for kdupress",
   "keywords": [
     "documentation",
@@ -21,7 +21,7 @@
   "author": "NKDuy",
   "main": "index.js",
   "dependencies": {
-    "@kdupress/shared-utils": "1.8.1",
+    "@kdupress/shared-utils": "1.8.2",
     "register-service-worker": "^1.7.0",
     "workbox-build": "^4.3.1"
   },

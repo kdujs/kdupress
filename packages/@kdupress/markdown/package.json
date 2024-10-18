@@ -1,6 +1,6 @@
 {
   "name": "@kdupress/markdown",
-  "version": "1.8.1",
+  "version": "1.8.2",
   "description": "markdown for kdupress",
   "keywords": [
     "documentation",
@@ -22,7 +22,7 @@
   "author": "NKDuy",
   "main": "index.js",
   "dependencies": {
-    "@kdupress/shared-utils": "1.8.1",
+    "@kdupress/shared-utils": "1.8.2",
     "markdown-it": "^8.4.1",
     "markdown-it-anchor": "^5.0.2",
     "markdown-it-chain": "^1.3.0",

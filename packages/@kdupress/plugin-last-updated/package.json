@@ -1,6 +1,6 @@
 {
   "name": "@kdupress/plugin-last-updated",
-  "version": "1.8.1",
+  "version": "1.8.2",
   "description": "last-updated plugin for kdupress",
   "keywords": [
     "documentation",

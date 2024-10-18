@@ -1,6 +1,6 @@
 {
   "name": "@kdupress/plugin-register-components",
-  "version": "1.8.1",
+  "version": "1.8.2",
   "description": "register-global-components plugin for kdupress",
   "keywords": [
     "documentation",
@@ -21,7 +21,7 @@
   "author": "NKDuy",
   "main": "index.js",
   "dependencies": {
-    "@kdupress/shared-utils": "1.8.1"
+    "@kdupress/shared-utils": "1.8.2"
   },
   "publishConfig": {
     "access": "public"
